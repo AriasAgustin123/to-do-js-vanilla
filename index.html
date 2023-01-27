@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">   
+        <form>
+            <div class="form">
+                <h1>To-Do WebApp</h1>
+                <input type="text" id="intxt-responsable" placeholder="Responsable de la tarea...">
+                <textarea name="" id="intxt-tarea" placeholder="Escribe tu tarea..." cols="30" rows="10"></textarea>
+                <button id="btn-agregar">Agregar tarea</button>
+                <button id="btn-vaciar" onclick="vaciarCampos()">Vaciar campos</button>
+            </div>
+        </form>       
+    </div>
+    <div id="contenedor-tareas">
+        <ul>
+            
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
